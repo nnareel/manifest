@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="external/qemu" name="qemu" remote="github" revision="emu-31-stable-release">
+    <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace"/>
+  </project>
+</manifest>

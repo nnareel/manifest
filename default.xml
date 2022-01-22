@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+   <remote  name="aosp"
+            fetch="https://android-review.googlesource.com" />
+   <default revision="emu-31-stable-release"
+            remote="aosp"
+            sync-j="4" />
+
+
+  <remote  name="github"
+           fetch="https://github.com/nnareel/" />
+
+  <include name="include/aosp.xml" />
+  <include name="include/emu.xml" />
+
+</manifest>
