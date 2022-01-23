@@ -2,7 +2,7 @@
 <manifest>
 
    <remote  name="aosp"
-            fetch=".."
+            fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/"
             review="https://android-review.googlesource.com" />
    <default revision="emu-31-stable-release"
             remote="aosp"
